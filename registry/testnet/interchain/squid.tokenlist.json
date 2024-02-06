@@ -6,30 +6,5 @@
     "minor": 1,
     "patch": 0
   },
-  "tokens": {
-    "0xbb5aa60fc881f08377de3531d132d320a348ef1abfb15ec85388172ef73ebbbd": {
-      "tokenId": "0xbb5aa60fc881f08377de3531d132d320a348ef1abfb15ec85388172ef73ebbbd",
-      "deployer": "0x74Ccd7d9F1F40417C6F7fD1151429a2c44c34e6d",
-      "originalMinter": null,
-      "prettySymbol": "adf",
-      "decimals": 18,
-      "originAxelarChainId": "polygon",
-      "tokenType": "interchain",
-      "deploySalt": "0x69a09e424a8685574ff1b70067f774fb6f3d52d9e51e905347c8b081a1f5b592",
-      "iconUrls": {
-        "svg": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/images/tokens/adf.svg"
-      },
-      "deploymentMessageId": "0x077a100ce500f28e31b88dace1c061d1d6ebf77246706623f49f1e42d9f4bd36-4",
-      "chains": [
-        {
-          "symbol": "adf",
-          "name": "adf",
-          "axelarChainId": "polygon",
-          "tokenAddress": "0x341060004E94c62E4786dDC84da680aCaE295c0B",
-          "tokenManager": "0x65f705376C2B2abAac1d9A434588F63f6E0c7EB7",
-          "tokenManagerType": "mintBurn"
-        }
-      ]
-    }
-  }
+  "tokens": {}
 }
