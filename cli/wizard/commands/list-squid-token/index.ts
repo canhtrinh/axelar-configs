@@ -175,7 +175,7 @@ export type InterchainTokenDetailsApiResponse = {
   axelarChainId: string;
   tokenId: string;
   deploymentMessageId: string;
-  deployer: string;
+  deployerAddress: string;
   remoteTokens: RemoteInterchainTokenApiResponse[];
 };
 
@@ -184,7 +184,7 @@ function parseAsInterchainTokenConfig(
 ): InterchainTokenConfig {
   return {
     tokenId: hash.parse(data.tokenId),
-    deployer: data.deployer,
+    deployer: data.deployerAddress,
     originalMinter: data.originalMinterAddress,
     prettySymbol: data.tokenSymbol,
     decimals: data.tokenDecimals,
